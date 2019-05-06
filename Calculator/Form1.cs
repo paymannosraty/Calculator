@@ -1,20 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
-namespace Calculator
+﻿namespace Calculator
 {
-	public partial class Form1 : Form
+	public partial class Form1 : System.Windows.Forms.Form
 	{
 		public Form1()
 		{
 			InitializeComponent();
+		}
+
+		private void NumberButton_Click(object sender, System.EventArgs e)
+		{
+			System.Windows.Forms.Button currentButton = (System.Windows.Forms.Button)sender;
+			string monitorCurrentText = monitorListBox.;
+			System.Windows.Forms.MessageBox.Show(monitorCurrentText);
+			monitorListBox.Items.Add(currentButton.Text);
 		}
 	}
 }

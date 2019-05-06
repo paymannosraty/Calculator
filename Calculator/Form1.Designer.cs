@@ -57,6 +57,7 @@
 			this.monitorListBox.FormattingEnabled = true;
 			this.monitorListBox.ItemHeight = 17;
 			this.monitorListBox.Location = new System.Drawing.Point(12, 12);
+			this.monitorListBox.MultiColumn = true;
 			this.monitorListBox.Name = "monitorListBox";
 			this.monitorListBox.Size = new System.Drawing.Size(194, 38);
 			this.monitorListBox.TabIndex = 0;
@@ -108,6 +109,7 @@
 			this.nineButton.TabIndex = 1;
 			this.nineButton.Text = "9";
 			this.nineButton.UseVisualStyleBackColor = false;
+			this.nineButton.Click += new System.EventHandler(this.NumberButton_Click);
 			// 
 			// eightButton
 			// 
@@ -120,6 +122,7 @@
 			this.eightButton.TabIndex = 1;
 			this.eightButton.Text = "8";
 			this.eightButton.UseVisualStyleBackColor = false;
+			this.eightButton.Click += new System.EventHandler(this.NumberButton_Click);
 			// 
 			// sevenButton
 			// 
@@ -132,6 +135,7 @@
 			this.sevenButton.TabIndex = 1;
 			this.sevenButton.Text = "7";
 			this.sevenButton.UseVisualStyleBackColor = false;
+			this.sevenButton.Click += new System.EventHandler(this.NumberButton_Click);
 			// 
 			// sixButton
 			// 
@@ -144,6 +148,7 @@
 			this.sixButton.TabIndex = 1;
 			this.sixButton.Text = "6";
 			this.sixButton.UseVisualStyleBackColor = false;
+			this.sixButton.Click += new System.EventHandler(this.NumberButton_Click);
 			// 
 			// fiveButton
 			// 
@@ -156,6 +161,7 @@
 			this.fiveButton.TabIndex = 1;
 			this.fiveButton.Text = "5";
 			this.fiveButton.UseVisualStyleBackColor = false;
+			this.fiveButton.Click += new System.EventHandler(this.NumberButton_Click);
 			// 
 			// fourButton
 			// 
@@ -168,6 +174,7 @@
 			this.fourButton.TabIndex = 1;
 			this.fourButton.Text = "4";
 			this.fourButton.UseVisualStyleBackColor = false;
+			this.fourButton.Click += new System.EventHandler(this.NumberButton_Click);
 			// 
 			// threeButton
 			// 
@@ -180,6 +187,7 @@
 			this.threeButton.TabIndex = 1;
 			this.threeButton.Text = "3";
 			this.threeButton.UseVisualStyleBackColor = false;
+			this.threeButton.Click += new System.EventHandler(this.NumberButton_Click);
 			// 
 			// twoButton
 			// 
@@ -192,6 +200,7 @@
 			this.twoButton.TabIndex = 1;
 			this.twoButton.Text = "2";
 			this.twoButton.UseVisualStyleBackColor = false;
+			this.twoButton.Click += new System.EventHandler(this.NumberButton_Click);
 			// 
 			// oneButton
 			// 
@@ -204,6 +213,7 @@
 			this.oneButton.TabIndex = 1;
 			this.oneButton.Text = "1";
 			this.oneButton.UseVisualStyleBackColor = false;
+			this.oneButton.Click += new System.EventHandler(this.NumberButton_Click);
 			// 
 			// multipleButton
 			// 
@@ -288,6 +298,7 @@
 			this.zeroButton.TabIndex = 1;
 			this.zeroButton.Text = "0";
 			this.zeroButton.UseVisualStyleBackColor = false;
+			this.zeroButton.Click += new System.EventHandler(this.NumberButton_Click);
 			// 
 			// backButton
 			// 
