@@ -10,9 +10,16 @@
 		private void NumberButton_Click(object sender, System.EventArgs e)
 		{
 			System.Windows.Forms.Button currentButton = (System.Windows.Forms.Button)sender;
-			string monitorCurrentText = monitorListBox.;
-			System.Windows.Forms.MessageBox.Show(monitorCurrentText);
-			monitorListBox.Items.Add(currentButton.Text);
+			if (monitorTextBox.Text == "0")
+			{
+				monitorTextBox.Clear();
+			}
+			monitorTextBox.Text = monitorTextBox.Text + currentButton.Text;
+		}
+
+		private void ClearMonitorButton_Click(object sender, System.EventArgs e)
+		{
+			monitorTextBox.Text = "0";
 		}
 	}
 }
