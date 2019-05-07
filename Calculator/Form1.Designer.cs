@@ -62,6 +62,7 @@
 			this.powerButton.TabIndex = 1;
 			this.powerButton.Text = "^";
 			this.powerButton.UseVisualStyleBackColor = false;
+			this.powerButton.Click += new System.EventHandler(this.OperatorButton_Click);
 			// 
 			// clearButton
 			// 
@@ -216,6 +217,7 @@
 			this.multipleButton.TabIndex = 2;
 			this.multipleButton.Text = "x";
 			this.multipleButton.UseVisualStyleBackColor = false;
+			this.multipleButton.Click += new System.EventHandler(this.OperatorButton_Click);
 			// 
 			// subtractionButton
 			// 
@@ -228,6 +230,7 @@
 			this.subtractionButton.TabIndex = 1;
 			this.subtractionButton.Text = "-";
 			this.subtractionButton.UseVisualStyleBackColor = false;
+			this.subtractionButton.Click += new System.EventHandler(this.OperatorButton_Click);
 			// 
 			// divisionBuutton
 			// 
@@ -240,6 +243,7 @@
 			this.divisionBuutton.TabIndex = 1;
 			this.divisionBuutton.Text = "/";
 			this.divisionBuutton.UseVisualStyleBackColor = false;
+			this.divisionBuutton.Click += new System.EventHandler(this.OperatorButton_Click);
 			// 
 			// sumButton
 			// 
@@ -252,6 +256,7 @@
 			this.sumButton.TabIndex = 2;
 			this.sumButton.Text = "+";
 			this.sumButton.UseVisualStyleBackColor = false;
+			this.sumButton.Click += new System.EventHandler(this.OperatorButton_Click);
 			// 
 			// auditorButton
 			// 
@@ -276,6 +281,7 @@
 			this.equalButton.TabIndex = 1;
 			this.equalButton.Text = "=";
 			this.equalButton.UseVisualStyleBackColor = false;
+			this.equalButton.Click += new System.EventHandler(this.EqualButton_Click);
 			// 
 			// zeroButton
 			// 
